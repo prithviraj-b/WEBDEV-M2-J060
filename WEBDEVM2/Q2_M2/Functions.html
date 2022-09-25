@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <body>
+        <h2>Functions in Javascript</h2>
+
+        <p>Uses the addition function</p>
+    
+    <p id="number_two"></p>
+
+    <script>
+        function add(x,y) {
+            let z = x + y
+            return z // Here we return z which consists of the addition of x and y and acts as an add function
+        }
+    let m = add(4,3)
+    document.getElementById("number_two").innerHTML = m;
+    </script>
+<p>Uses the arrow function :</p>
+<p id="number_three"></p>
+
+<script>
+    Addition = (a,b) => { //With the use of arrow we have reduced our code and made it more readable
+        f = a + b
+        return f
+    }
+    let z = add(8,10)
+    document.getElementById("number_three").innerHTML = z;
+</script>
+
+</body>
+</html>
